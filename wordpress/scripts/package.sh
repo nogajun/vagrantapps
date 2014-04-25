@@ -17,4 +17,4 @@ phpmyadmin phpmyadmin/mysql/app-pass password
 _EOL_
 
 # install packages
-apt-get -y -q install apache2 mysql-server php5 curl git less php-apc mysql-client phpmyadmin libphp-phpmailer libphp-snoopy 
+apt-get -y -q install apache2 mysql-server php5 curl git less php-apc mysql-client phpmyadmin libphp-phpmailer libphp-snoopy exim4 ufw
