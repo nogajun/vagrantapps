@@ -2,8 +2,6 @@ WordPress
 =========
 Installing WordPress to Debian/Wheezy box.
 
-- WordPress: http://www.wordpress.org/
-
 How to use
 ----------
 
@@ -13,14 +11,19 @@ How to use
 
 2. see http://wp.local/ your web browaser
 
+- WordPress: http://wp.local/
+- WordPress Dashboard: http://wp.local/wp-admin/
+- PHPMyAdmin: http://wp.local/phpmyadmin/
+
+ID/Password
+-----------
+
+- WordPress: admin/admin
+- PHPMyAdmin(MySQL): root/root
 
 Synced Folder
 -------------
 
-wordpress folder syncronized /srv/wordpress/ at box.
+./wordpress/ folder syncronized /srv/wordpress/ at box.
 If automatically synchronized folders, please run "vagrant rsync-auto"
 
-
-phpmyadmin
-----------
-If you wanto to use phpmyadmin, access to http://wp.local/phpmyadmin/
